@@ -22,8 +22,8 @@ load_dotenv()  # take environment variables from .env.
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = "django-insecure-oifn5_659!h&n(t%=_cie^($!*y(csjm6hlvo8c%+8eqb36ynn"
 FERNET_ENCRYPT_KEY = os.getenv('FERNET_ENCRYPT_KEY')
-SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
