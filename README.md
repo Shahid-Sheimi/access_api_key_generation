@@ -1,6 +1,6 @@
 # Access API Key Generation
 
-This project provides functionality to generate and manage API keys using Django.
+This project provides functionality to generate and manage Access API keys using Django and fernet.
 
 ## Installation
 
