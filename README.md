@@ -17,8 +17,11 @@ python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().d
 
 ## .env
 SECRET_KEY="your_django_secret_key"
+
 DEBUG=True  # Set to False in production
+
 FERNET_KEY="your_generated_fernet_key"
+
 ## migrate comamands
 python manage.py migrate
 ## runserver 
