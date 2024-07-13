@@ -20,6 +20,7 @@ SECRET_KEY="your_django_secret_key"
 DEBUG=True  # Set to False in production
 DATABASE_URL=postgres://username:password@localhost:5432/db_name
 FERNET_KEY="your_generated_fernet_key"
-## comamands
+## migrate comamands
 python manage.py migrate
+## runserver 
 python manage.py runserver
